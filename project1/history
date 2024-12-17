@@ -1,0 +1,594 @@
+50  cd Downloads/
+   51  ls
+   52  javac DigitalClock.java
+   53  appletviewer DigitalClock
+   54  sudo apt install openjdk-8-jdk
+   55  javac DigitalClock.java
+   56  appletviewer DigitalClock
+   57  javac DigitalClock.java
+   58  cd Downloads/
+   59  javac DigitalClock.java
+   60  appletviewer DigitalClock
+   61  appletviewer DigitalClock.java
+   62  javac GraphicsDemo.java
+   63  appletviewer GraphicsDemo.java
+   64  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   65  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb~
+   66  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   67  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   68  ifconfig
+   69  su administrator
+   70  sudo bash
+   71  vim
+   72  sudo apt install vim
+   73  clear
+   74  vim 
+   75  vim test.txt
+   76  vim
+   77  i
+   78  clear
+   79  vim
+   80  cat > file.txt
+   81  grep "hello" file.txt
+   82  grep "Hello" file.txt
+   83  grep -i  "Hello" file.txt
+   84  grep "hello" file.txt
+   85  grep "Hello" file.txt
+   86  grep -i "Hello" file.txt
+   87  grep -l "Hello" file.txt
+   88  grep -e "hello" -e "friday" file.txt 
+   89  grep  "f*" file.txt 
+   90  grep  "*day" file.txt 
+   91  grep  "*y" file.txt 
+   92  grep  "t*" file.txt 
+   93  grep  ".e" file.txt 
+   94  grep  "^today" file.txt 
+   95  grep  "today$" file.txt 
+   96  grep "am" file.txt
+   97  grep  "today$" file.txt  | wc -l
+   98  cat file.txt | wx -w
+   99  vim file.txt
+  100  vim file0.txt
+  101  cat file0.txt| wc -l
+  102  vim file0.txt
+  103  cat file0.txt| wc -w
+  104  cat file0.txt| wc -c
+  105  cat/etc/passwd
+  106  cat /etc/passwd
+  107  cd /
+  108  cd could
+  109  c ..
+  110  ls
+  111  clear
+  112  ls -ld dir1
+  113  \sudo chown
+  114  /
+  115  clear
+  116  touch file.txt
+  117  ll file.txt
+  118  sudo kishore file.txt
+  119  dd
+  120  vim
+  121  cd /
+  122  cat /etc/passwd
+  123  sudo su manoj
+  124  clear 
+  125  passwd manoj
+  126  su manoj
+  127  sudo passwd manoj
+  128  su manoj
+  129  cd /
+  130  user del
+  131  sudo user del manoj
+  132  clear
+  133  sudo user del manoj
+  134  sudo userdel manoj
+  135  sudo userdel -f
+  136  sudo manojdel -f
+  137  sudo userdel -f manoj
+  138  cat /etc/passwd
+  139  clear
+  140  mkdir dir1
+  141  is
+  142  ls -ld dir1
+  143  chmod o-x
+  144  chmod o-x dir1
+  145  ls -ld dir1
+  146  clear
+  147  cd 
+  148  ls
+  149  cd Desktop
+  150  mkdir dir1
+  151  ls
+  152  ls -ld dir1
+  153  chmod o-x dir1
+  154  ls -ld dir1
+  155  su rishii
+  156  dd
+  157  clear
+  158  nano script.nh
+  159  nano script.txt
+  160  #:/bin/bash
+  161  nano file.sh
+  162  ls
+  163  cd /
+  164  ls
+  165  cd bin
+  166  ls
+  167  cd ..
+  168  cd ~
+  169  ls
+  170  nano file.sh
+  171  ./file.sh
+  172  chmod 777 file.sh
+  173  ./file.sh
+  174  nano file.sh
+  175  ./file.sh
+  176  nano file.sh
+  177  ./file.sh
+  178  nano file.sh
+  179  ./file.sh
+  180  nano file.sh
+  181  ./file.sh
+  182  nano file.sh
+  183  ./file.sh
+  184  nano file.sh
+  185  ./file.sh
+  186  nano file.sh
+  187  ./file.sh
+  188  nano file.sh
+  189  ./file.sh
+  190  nano file.sh
+  191  ./file.sh
+  192  nano file.sh
+  193  ./file.sh
+  194  nano file.sh
+  195  ./file.sh
+  196  nano file.sh
+  197  sudo apt update
+  198  sudo apt install git
+  199  git --version
+  200  cd /
+  201  cd Desktop
+  202  cd /
+  203  ls
+  204  cd home
+  205  cd Desktop
+  206  ls
+  207  cd administrator
+  208  ls
+  209  cd Desktop
+  210  ls
+  211  mkdir cloud
+  212  ls
+  213  cd cloud
+  214  clear
+  215  cd /mnt/d
+  216  git --version
+  217  cd cloud
+  218  git init
+  219  git config --list
+  220  git config --global user.name 
+  221  git config --global user.name "ak"
+  222  git config --list
+  223  git config --global init.defaultbranch main
+  224  git config --list
+  225  git config --global user."email"
+  226  git config --global user.email "24bsitkishores@skacas.ac.in"
+  227  git config --global core.ignorecase
+  228  git config --list
+  229  git config --global core.eol lf
+  230  git config --global core.autocrlf input
+  231  git config --list
+  232  ls
+  233  git clone https://github.com/Skishore-ak/kishore.git
+  234  ls
+  235  cd kishore
+  236  touch file.txt
+  237  ls
+  238  git add file.txt
+  239  cat > file.txt
+  240  git commit -m "first commit"
+  241  git status
+  242  git add kishore.txt
+  243  commit -m "second commit"
+  244  git add file.txt
+  245  git status
+  246  git commit -m "second"
+  247  git status
+  248  git push origin main
+  249  git remot -v
+  250  git remote -v
+  251  git remote set-url origin
+  252  git remote -v
+  253  git remote set-url origin "https://ghp_kgduxevaGcpgn0eHNPF6sE542k11pHWMK@github.com/Skishore-ak/kishore"
+  254  git remote -v
+  255  git status
+  256  git push origin main
+  257  git remote -v
+  258  git remote set-url origin "https://ghp_kgduxevaGcpgn0eHNPF6SsE542k11pHWMk@github.com/Skishore-ak/kishore"
+  259  git status
+  260  git push origin main
+  261  git remote -v
+  262  git remote set-url origin "https://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@github.com/Skishore-ak/kishore"
+  263  git status
+  264  git push origin main
+  265  git commit -v
+  266  cat fail.txt
+  267  git commit -v
+  268  clear
+  269  cd /
+  270  clear
+  271  cd /
+  272  ls
+  273  touch file1.txt
+  274  cd home
+  275  ls
+  276  clear
+  277  cd /
+  278  ls
+  279  cd home
+  280  ls
+  281  ls -ld
+  282  clear
+  283  cd /
+  284  ls
+  285  git init
+  286  clear
+  287  cd /
+  288  ls
+  289  cd home
+  290  cd skacas
+  291  cd Desktop
+  292  git initclear
+  293  clear
+  294  cd /
+  295  cd home
+  296  cd administrator
+  297  cd Desktop
+  298  cd could
+  299  cd cloud
+  300  git init
+  301  git --version
+  302  git init
+  303  git config --list
+  304  git config --global user.name "kishore1"
+  305  git config --list
+  306  git config --global init.defaultbranch main
+  307  clear
+  308  git config --global init.defaultbranch main
+  309  clear
+  310  git config --global init.defaultbranch main
+  311  clear
+  312  git config --global init.defaultbranch main
+  313  clear
+  314  git config --global init.defaultbranch main
+  315  clear
+  316  git config --global init.defaultbranch maingit config --global init.defaultbranch main
+  317  git config --global init.defaultbranch main
+  318  clear
+  319  git config --global init.defaultbranch main
+  320  git config --global init.defaultbranch maingit config --global init.defaultbranch main
+  321  git config --global init.defaultbranch main
+  322  git config --global init.defaultbranch maingit config --global init.defaultbranch main
+  323  cd cloud
+  324  git config --global init.defaultbranch main
+  325  git config --global init.defaultbranch maingit config --global init.defaultbranch main
+  326  clear
+  327  git add file1.txt
+  328  mkdir file1.txt
+  329  git add file.txt
+  330  git add file1.txt
+  331  git config --global user.name "kishore1"
+  332  clear
+  333  mkdir gittest
+  334  cd gittest
+  335  git init
+  336  git remote set-url origin "https://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@github.com/Skishore-ak/kishore"
+  337  git remote set-url origin "https://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@github.com/Skishore-ak/kishore1"
+  338  git remote set-url origin "https://https://github.com/Skishore-ak/kishore1.git@github.com/Skishore-ak/kishore1"
+  339  cd /
+  340  ls
+  341  cd home
+  342  ls
+  343  cd administrator
+  344  ls
+  345  cd Desktop
+  346  ls
+  347  cd  cloud
+  348  clear
+  349  cd /
+  350  ls
+  351  cd home
+  352  cd Desktop
+  353  LS
+  354  Clear
+  355  clear
+  356  cd /
+  357  ls
+  358  cd skacas
+  359  clear
+  360  cd /
+  361  ls
+  362  cd home
+  363  ls
+  364  cd administrator
+  365  ls
+  366  cd Desktop
+  367  mkdir cloud
+  368  cd cloud\
+  369  cd cloud
+  370  touch file1.txt
+  371  cat > file1.txt
+  372  cat file1.txt
+  373  history
+  374  cd ..
+  375  history
+  376  clear
+  377  cat file1.txt
+  378  clear
+  379  cat file1.txt
+  380  clear
+  381  mkdir cloud
+  382  clear
+  383  mkdir cloud
+  384  clear
+  385  mkdir cloud
+  386  clear
+  387  mkdir cloud
+  388  clear
+  389  touch file1.txtA
+  390  clear
+  391  touch file1.txtA
+  392  clear
+  393  touch file1.txtA
+  394  clea
+  395  touch file1.txtA
+  396  history
+  397  cd /
+  398  mkdir cloud
+  399  ls
+  400  cd home
+  401  cd skacas
+  402  cd cloud
+  403  cd home
+  404  git config --global init.defaultbranch main
+  405  clear
+  406  ndsksdjfhiuwehnf rewuwet jkfnc kerj 
+  407  clear
+  408  /clear
+  409  clear
+  410  cd ..
+  411  clear
+  412  cd /
+  413  ls
+  414  cd home
+  415  ls
+  416  cd ..
+  417  clear
+  418  ccd home
+  419  clear
+  420  cd home
+  421  clear
+  422  cd ..
+  423  clear
+  424  cd //
+  425  cd ..
+  426  clear
+  427  cd cd ..
+  428  cd ..
+  429  ls
+  430  clear
+  431  cd /
+  432  ls
+  433  cd home
+  434  ls
+  435  cd administrator
+  436  ls
+  437  cd Desktop
+  438  mkdir website_analytics
+  439  cd website_analytics
+  440  touch file1.txt
+  441  touch file2.txt
+  442  touch file3.txt
+  443  touch file4.txt
+  444  touch file5.txt
+  445  touch file6.txt
+  446  touch file7.txt
+  447  touch file8.txt
+  448  touch file9.txt
+  449  touch file10.txt
+  450  touch file11.txt
+  451  touch file12.txt
+  452  clear
+  453  cd /
+  454  ls
+  455  cd home
+  456  ls
+  457  cd administrator
+  458  ls
+  459  cd Desktop
+  460  clear
+  461  cd /
+  462  ls
+  463  clear
+  464  cd disktop
+  465  cd /
+  466  ls
+  467  cd home
+  468  cd administrator
+  469  cd Desktop
+  470  cd //
+  471  cd ..
+  472  clear
+  473  cd /
+  474  ls
+  475  cd home
+  476  cd administrator
+  477  cd Desktop
+  478  ls
+  479  mkdir website_analytics".
+  480  mkdir website_analytics
+  481  touch website_analytics
+  482  cd website_analytics
+  483  clear
+  484  cd /
+  485  cd home
+  486  ls
+  487  cd administrator
+  488  cd Desktop
+  489  mkdir file0.txt
+  490  mkdir kishore
+  491  cd website_analytics
+  492  mkdir file1
+  493  cd website_analytics
+  494  cd kishore
+  495  cd file1
+  496  touch file1.txt
+  497  mkdir file2
+  498  touch file2.txt
+  499  mkdir file3
+  500  touch file3.txt
+  501  mkdir file4
+  502  mkdir file4.txt
+  503  clear
+  504  mkdir file1
+  505  cd file1
+  506  touch file.txt
+  507  clear
+  508  cd ..
+  509  cs ..
+  510  cd ..
+  511  clear
+  512  cd /
+  513  cd home
+  514  cd administrator
+  515  cd Desktop
+  516  ls
+  517  mkdir website_analytics
+  518  cd website_analytics
+  519  mkdir file1
+  520  touch file1
+  521  mkdir clear
+  522  clear
+  523  cd website_analytics
+  524  mkdir website_analytics
+  525  cd website_analytics
+  526  cd ..
+  527  mkdir jan
+  528  mkdir feb
+  529  mkdir march
+  530  cd ..
+  531  clear
+  532  cd /
+  533  ls 
+  534  cd home
+  535  cd administrator
+  536  ls
+  537  cd Desktop
+  538  mkdir website_analytics
+  539  ls
+  540  mkdir website_analytics
+  541  cd website_analytics
+  542  mkdir jan
+  543  mkdir feb
+  544  mkdir march
+  545  mkdir april
+  546  mkdir may
+  547  mkdir june
+  548  mkdir july
+  549  mkdir aug
+  550  mkdir sept
+  551  mkdir oct
+  552  mkdir nov
+  553  mkdir dec
+  554  cd jan
+  555  touch website_analytics.txt
+  556  cd ..
+  557  cd jan
+  558  touch log_day_1.txt
+  559  touch log_week_1.txt
+  560  cd ..
+  561  cd feb
+  562  touch log_day_1.txt
+  563  touch log_week_1.txt
+  564  cd ..
+  565  cd march
+  566  touch log_day_1.txt
+  567  touch log_week_1.txt
+  568  cd ..
+  569  cd march
+  570  touch log_day_1.txt
+  571  touch log_week_1.txt
+  572  cd ..
+  573  cd april
+  574  touch log_day_1.txt
+  575  touch log_week_1.txt
+  576  cd ..
+  577  cd may
+  578  touch log_day_1.txt
+  579  touch log_week_1.txt
+  580  cd ..
+  581  cd june
+  582  touch log_day_1.txt
+  583  touch log_week_1.txt
+  584  cd ..
+  585  cd july
+  586  touch log_day_1.txt
+  587  touch log_week_1.txt
+  588  cd ..
+  589  cd aug
+  590  touch log_day_1.txt
+  591  touch log_week_1.txt
+  592  cd ..
+  593  cd sept
+  594  touch log_day_1.txt
+  595  touch log_week_1.txt
+  596  cd ..
+  597  cd oct
+  598  touch log_day_1.txt
+  599  touch log_week_1.txt
+  600  cd ..
+  601  cd nov
+  602  touch log_day_1.txt
+  603  touch log_week_1.txt
+  604  cd ..
+  605  cd dec
+  606  touch log_day_1.txt
+  607  touch log_week_1.txt
+  608  cd ..
+  609  clear
+  610  cd ..
+  611  mkdir project
+  612  clear
+  613  mkdir project
+  614  cd Desktop
+  615  cd ..
+  616  clear
+  617  cd /
+  618  cd home
+  619  cd administrator
+  620  ls
+  621  cd Desktop
+  622  mkdir project
+  623  cd project
+  624  mkdir task.txt
+  625  cd task.txt
+  626  mkdir task1.txt
+  627  cd task1.txt
+  628  cat > task1.txt
+  629  clear
+  630  history
+  631  cd /
+  632  cd home
+  633  cd administrator
+  634  cd Desktop
+  635  cat website_analytics
+  636  cat jan
+  637  clear
+  638  mkdir project file
+  639  mkdir project file1 
+  640  mkdir project file1.txt
+  641  mkdir ptoject1
+  642  history
+
